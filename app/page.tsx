@@ -8,9 +8,8 @@ import { Button } from './_components/ui/button';
 const Home = () => {
   const[] = useState()
   return (
-    <div>
-      <h1 className='text-red-500'>red text</h1>
-      <Button>Teste</Button>
+     <div className="flex flex-wrap items-center gap-2 md:flex-row">
+      <Button>Button</Button>
     </div>
   )
 }
